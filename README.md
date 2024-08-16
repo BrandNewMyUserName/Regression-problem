@@ -54,8 +54,10 @@ Changeable:
 - The number of neurons in a hidden layer: 10, 20, 30
 
 
+
+
 <details>
-  <summary>Click to expand/collapse examples of experimental results</summary>
+  <summary style="font-weight: bold;>Click to expand/collapse examples of experimental results</summary>
 
 ### Example 1
 
