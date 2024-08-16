@@ -57,7 +57,7 @@ Changeable:
 
 
 <details>
-  <summary style="font-weight: bold;>Click to expand/collapse examples of experimental results</summary>
+  <summary style="font-weight: bold;">Click to expand/collapse examples of experimental results</summary>
 
 ### Example 1
 
