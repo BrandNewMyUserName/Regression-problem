@@ -50,7 +50,7 @@ Constant:
 - The training error on an epoch after which algorithm stops: 0.01
 
 Changeable: 
-- The proportion of training/test sets: 50%/50%, 70%/30%, 80%/20%
+- The distribution of training/test sets: 50%/50%, 70%/30%, 80%/20%
 - The number of neurons in a hidden layer: 10, 20, 30
 
 
@@ -127,7 +127,7 @@ Test sample size: 20
 --------------------------------------------------------------------------------------------------------
 Error: 0.15535075002871776 | Metric: MAPE
 
-![Training error changing over iteration]('C:\Users\User\Desktop\#1\GitHub\Regression Problem\Training_error_over_iteration(80-20-dataset 10neurons).png')
+![Training error changing over iteration](Pictures/Training_error_over_iteration(80-20-dataset 10neurons).png)
 
 ### Example 2
 
@@ -208,7 +208,7 @@ Test sample size: 20
 --------------------------------------------------------------------------------------------------------
 Error: 0.3348656455854145 | Metric: MAPE
 
-![Training error changing over iteration]('C:\Users\User\Desktop\#1\GitHub\Regression Problem\Training_error_over_iteration(80-20-dataset 30neurons).png')
+![Training error changing over iteration](Pictures/Training_error_over_iteration(80-20-dataset 30neurons).png)
 
 </details>
 
