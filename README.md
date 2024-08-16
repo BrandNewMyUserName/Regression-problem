@@ -1,6 +1,6 @@
 # Neural Network for Function Approximation
 
-This project implements a manually constructed neural network to approximate the function \( f(x_1, x_2, x_3) = \x_1 * \x_2 - \x_3 \) using backpropagation method. The network outputs two values. The first is the computed function value, the second one is equal to 1 if the function value is greater than the average value of all points (functions value) or 0 if it's less.
+This project implements a manually constructed neural network to approximate the function `$f(x_1, x_2, x_3) = x_1 \cdot x_2 - x_3$` using backpropagation method. The network outputs two values. The first is the computed function value, the second one is equal to 1 if the function value is greater than the average value of all points (functions value) or 0 if it's less.
 
 ## The purpose of Task 
 The purpose of the task is to learn how to use neural networks for complex regression problems on the example of a linear function as well as evaluate dependecy between training speed with accuracy of a model and size of training/test sets with the number of neurons in a hidden layer. 
@@ -57,7 +57,7 @@ Changeable:
 
 
 <details>
-  <summary style="font-weight: bold;">Click to expand/collapse examples of experimental results</summary>
+  <summary style="font-weight: bold">Click to expand/collapse examples of experimental results</summary>
 
 ### Example 1
 
@@ -173,7 +173,7 @@ Error: 0.3348656455854145 | Metric: MAPE
 
 </details>
 
-### Detailed statistics
+**Detailed statistics**
 
 | Train Set Size | Hidden Neurons | Iteration Speed | MAPE Error |
 |----------------|----------------|-----------------|------------|
