@@ -59,29 +59,30 @@ Changeable:
 
 ### Example 1
 
-Training the neural network:
-Training sample size: 80 | Number of neurons in the hidden layer: 10 | Learning rate: 0.01
-200 iteration: Error 0.05158
-400 iteration: Error 0.05036
-600 iteration: Error 0.04890
-800 iteration: Error 0.04693
-1000 iteration: Error 0.04411
-1200 iteration: Error 0.04009
-1400 iteration: Error 0.03486
-1600 iteration: Error 0.02927
-1800 iteration: Error 0.02438
-2000 iteration: Error 0.02063
-2200 iteration: Error 0.01786
-2400 iteration: Error 0.01578
-2600 iteration: Error 0.01415
-2800 iteration: Error 0.01283
-3000 iteration: Error 0.01172
-3200 iteration: Error 0.01077
-Total number of iterations: 3386 | Error in the last iteration: 0.01000 | Metric: MSE
+Training the neural network:<br>
+Training sample size: 80 | Number of neurons in the hidden layer: 10 | Learning rate: 0.01<br>
+200 iteration: Error 0.05158<br>
+400 iteration: Error 0.05036<br>
+600 iteration: Error 0.04890<br>
+800 iteration: Error 0.04693<br>
+1000 iteration: Error 0.04411<br>
+1200 iteration: Error 0.04009<br>
+1400 iteration: Error 0.03486<br>
+1600 iteration: Error 0.02927<br>
+1800 iteration: Error 0.02438<br>
+2000 iteration: Error 0.02063<br>
+2200 iteration: Error 0.01786<br>
+2400 iteration: Error 0.01578<br>
+2600 iteration: Error 0.01415<br>
+2800 iteration: Error 0.01283<br>
+3000 iteration: Error 0.01172<br>
+3200 iteration: Error 0.01077<br>
+Total number of iterations: 3386 | Error in the last iteration: 0.01000 | Metric: MSE<br>
 
 
-Testing:
-Test sample size: 20
+
+Testing:<br>
+Test sample size: 20<br>
 |   X1    |    X2    |    X3    | y1_pred | y2_pred | y1_real | y2_real |
 |---------|----------|----------|---------|---------|---------|---------|
 | 0.48214 | 0.50000  | 0.14815  | 0.47512 | 0.0     | 0.38922 | 0.0     |
@@ -106,42 +107,42 @@ Test sample size: 20
 | 0.48214 | 0.50000  | 0.07407  | 0.40467 | 0.0     | 0.31515 | 0.0     |
 Error: 0.15535075002871776 | Metric: MAPE
 
-![Training error changing over iteration](Pictures/Training_error_over_iteration(80-20-dataset 10neurons).png)
+![Training error changing over iteration](https://github.com/BrandNewMyUserName/Regression-problem/blob/main/Pictures/Training_error_over_iteration(80-20-dataset%2010neurons).png)
 
 ### Example 2
 
-Training the neural network:
-Training sample size: 80 | Number of neurons in the hidden layer: 30 | Learning rate: 0.01
-200 iteration: Error 0.15366
-400 iteration: Error 0.15365
-600 iteration: Error 0.15365
-800 iteration: Error 0.15364
-1000 iteration: Error 0.15364
-1200 iteration: Error 0.15363
-1400 iteration: Error 0.15362
-1600 iteration: Error 0.15360
-1800 iteration: Error 0.15358
-2000 iteration: Error 0.15356
-2200 iteration: Error 0.15353
-2400 iteration: Error 0.15349
-2600 iteration: Error 0.15341
-2800 iteration: Error 0.15328
-3000 iteration: Error 0.15293
-3200 iteration: Error 0.15044
-3400 iteration: Error 0.05202
-3600 iteration: Error 0.04930
-3800 iteration: Error 0.04584
-4000 iteration: Error 0.04129
-4200 iteration: Error 0.03557
-4400 iteration: Error 0.02934
-4600 iteration: Error 0.02363
-4800 iteration: Error 0.01912
-5000 iteration: Error 0.01577
-Total number of iterations: 5000 | Error in the last iteration: 0.01577 | Metric: MSE
+Training the neural network:<br>
+Training sample size: 80 | Number of neurons in the hidden layer: 30 | Learning rate: 0.01<br>
+200 iteration: Error 0.15366<br>
+400 iteration: Error 0.15365<br>
+600 iteration: Error 0.15365<br>
+800 iteration: Error 0.15364<br>
+1000 iteration: Error 0.15364<br>
+1200 iteration: Error 0.15363<br>
+1400 iteration: Error 0.15362<br>
+1600 iteration: Error 0.15360<br>
+1800 iteration: Error 0.15358<br>
+2000 iteration: Error 0.15356<br>
+2200 iteration: Error 0.15353<br>
+2400 iteration: Error 0.15349<br>
+2600 iteration: Error 0.15341<br>
+2800 iteration: Error 0.15328<br>
+3000 iteration: Error 0.15293<br>
+3200 iteration: Error 0.15044<br>
+3400 iteration: Error 0.05202<br>
+3600 iteration: Error 0.04930<br>
+3800 iteration: Error 0.04584<br>
+4000 iteration: Error 0.04129<br>
+4200 iteration: Error 0.03557<br>
+4400 iteration: Error 0.02934<br>
+4600 iteration: Error 0.02363<br>
+4800 iteration: Error 0.01912<br>
+5000 iteration: Error 0.01577<br>
+Total number of iterations: 5000 | Error in the last iteration: 0.01577 | Metric: MSE<br>
 
 
-Testing:
-Test sample size: 20
+Testing:<br>
+Test sample size: 20<br>
 |   X1    |    X2    |    X3    | y1_pred | y2_pred | y1_real | y2_real |
 |---------|----------|----------|---------|---------|---------|---------|
 | 0.48214 | 0.77778  | 0.50000  | 0.70777 | 1.0     | 0.87500 | 1.0     |
@@ -166,7 +167,7 @@ Test sample size: 20
 | 0.10714 | 0.50000  | 0.11111  | 0.29934 | 0.0     | 0.16468 | 0.0     |
 Error: 0.3348656455854145 | Metric: MAPE
 
-![Training error changing over iteration](Pictures/Training_error_over_iteration(80-20-dataset 30neurons).png)
+![Training error changing over iteration](https://github.com/BrandNewMyUserName/Regression-problem/blob/main/Pictures/Training_error_over_iteration(80-20-dataset%2030neurons).png)
 
 </details>
 
